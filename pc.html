@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carrito de Compras</title>
+</head>
+<body bgcolor="pink">
+  <h1>Es momento de comprar , tu carrito esta vacio˚ ༘ ೀ⋆｡˚</h1>
+    <h2>Tienda Online 𝄃𝄃𝄂𝄂𝄀𝄁𝄃𝄂𝄂𝄃</h2>
+    <div class="carrito">
+        <h2>🛒 Carrito de Compras</h2>
+        <ul id="lista-carrito"></ul>
+        <h3>Total: $<span id="total">0</span></h3>
+
+       
+        <button onclick="mostrarFormularioPago()"style="font-size :110%;">Pagar</button>
+        <img src="https://mail.google.com/mail/u/0?ui=2&ik=7121a950a3&attid=0.1&permmsgid=msg-a:r1851438211150705462&th=196c735c56007603&view=fimg&fur=ip&permmsgid=msg-a:r1851438211150705462&sz=s0-l75-ft&attbid=ANGjdJ9pnK-Wr5GN49BpOriWeFPN9ty8q_0oai03Ym_N5acMxs3xC5K6-cPmLsHo_t2kUbmjNhNDpwTEBPzRcGgio-qJrm2M7fLZroVfjcW99rKj22lQCQU7IbVjziA&disp=emb&realattid=ii_196c735af71f81874e51&zw">
+    </div>
+    <center>
+    <div class="producto">
+        <h2>Rimel prosa rosa⋆𐙚₊˚⊹♡
+        <p class="precio">Precio: $40</p>
+        <button onclick="agregarAlCarrito('Rimel prosa rosa', 40)" style="font-size:80%;">Agregar al carrito</button>
+    </h2>
+    </div>
+
+    <div class="producto">
+        <h2>Enchinador⋆𐙚₊˚⊹♡
+        <p class="precio">Precio: $44</p>
+        <button onclick="agregarAlCarrito('Enchinador', 44)" style="font-size :80%;">Agregar al carrito</button>
+        </h2>
+    </div>
+    <div class="producto">
+        <h2>Base Maestro Touch⋆𐙚₊˚⊹♡
+        <p class="precio">Precio: $69</p>
+        <button onclick="agregarAlCarrito('Base Maestro Touch', 69)"style="font-size :80%";>Agregar al carrito</button>
+        </h2>
+    </div>
+    <div class="producto">
+        <h2>got2b⋆𐙚₊˚⊹♡
+        <p class="precio">Precio: $139</p>
+        <button onclick="agregarAlCarrito('got2b', 139)" style="font-size :80%;">Agregar al carrito</button>
+    </h2>
+    </div>
+
+    <div class="producto">
+        <h2>centella asiatica limpíador⋆𐙚₊˚⊹♡
+        <p class="precio">Precio: $49</p>
+        <button onclick="agregarAlCarrito('centella asiatica limpíador', 49)"style="font-size :80%;">Agregar al carrito</button>
+        </h2>
+    </div>
+
+    <div class="producto">
+        <h2>centella asiatica crema ⋆𐙚₊˚⊹♡
+        <p class="precio">Precio: $79</p>
+        <button onclick="agregarAlCarrito('centella asiatica crema', 79)"style="font-size :80%;">Agregar al carrito</button>
+        </h2>
+    </div>
+
+    <div class="producto">
+        <h2>centella asiatica contorno de ojos⋆𐙚₊˚⊹♡
+        <p class="precio">Precio: $40</p>
+        <button onclick="agregarAlCarrito('centella asiatica contorno de ojos', 40)"style="font-size :80%;">Agregar al carrito</button>
+        </h2>
+    </div>
+
+    <div class="producto">
+        <h2>centella asiatica tonico ⋆𐙚₊˚⊹♡
+        <p class="precio">Precio: $98</p>
+        <button onclick="agregarAlCarrito('centella asiatica tonico', 98)"style="font-size :80%;">Agregar al carrito</button>
+        </h2>
+    </div>
+
+    <div class="producto">
+        <h2>sellador de puntas ⋆𐙚₊˚⊹♡
+        <p class="precio">Precio: $110</p>
+        <button onclick="agregarAlCarrito('Sellador de puntas', 110)"style="font-size :80%;">Agregar al carrito</button>
+        </h2>
+    </div>
+
+    <div class="producto">
+        <h2>crema de peinar elvive ⋆𐙚₊˚⊹♡
+        <p class="precio">Precio: $46</p>
+        <button onclick="agregarAlCarrito('crema de peinar elvive', 46)"style="font-size :80%;">Agregar al carrito</button>
+        </h2>
+    </div>
+
+    <div class="producto">
+        <h2>shampoo pert ⋆𐙚₊˚⊹♡
+        <p class="precio" >Precio: $64</p>
+        <button onclick="agregarAlCarrito('shampoo pert', 64)"style="font-size :80%;">Agregar al carrito</button>
+        </h2>
+    </div>
+
+    <div class="producto">
+        <h2>acondicionador pert ⋆𐙚₊˚⊹♡
+        <p class="precio">Precio: $64</p>
+        <button onclick="agregarAlCarrito('acondicionador pert', 64)"style="font-size :80%;">Agregar al carrito</button>
+        </h2>
+    </div>
+
+    <div class="producto">
+        <h2>crema de rosas⋆𐙚₊˚⊹♡
+        <p class="precio">Precio: $97</p>
+        <button onclick="agregarAlCarrito('crema de rosas', 97)"style="font-size :80%;">Agregar al carrito</button>
+        </h2>
+    </div>
+
+    <div class="producto">
+        <h2>body splash jabon rosa venus⋆𐙚₊˚⊹♡
+        <p class="precio">Precio: $78</p>
+        <button onclick="agregarAlCarrito('body splash jabon rosa venus', 78)"style="font-size :80%;">Agregar al carrito</button>
+        </h2>
+    </div>
+
+    <div class="producto">
+        <h2>crema de aceite de argan⋆𐙚₊˚⊹♡
+        <p class="precio">Precio: $73</p>
+        <button onclick="agregarAlCarrito('crema de aceite de argan', 73)"style="font-size :80%;">Agregar al carrito</button>
+        </h2>
+    </div>
+
+    <div class="producto">
+        <h2>Desodorante obao⋆𐙚₊˚⊹♡
+        <p class="precio">Precio: $46</p>
+        <button onclick="agregarAlCarrito('Desodorante obao', 46)"style="font-size :80%;">Agregar al carrito</button>
+        </h2>
+    </div>
+</center>
+    <div id="formulario-pago" style="font-size: 140%;" style="display: none;">
+        <h2>🤍ྀི Pago con Tarjeta</h2>
+        <form onsubmit="return procesarPago(event)">
+            <label class="c" type="text">Nombre del autor de la tarjeta𖤓:</label>
+            <input type="text" id="nombre" maxlenght="50"required ><br>
+
+            <label class="c">Número de tarjeta𖤓:</label>
+            <input type="text" id="tarjeta" maxlength="50" required><br>
+
+            <label class="c">NIP𖤓:</label>
+            <input type="password" id="nip" maxlength="50" required><br>
+
+            <button type="submit"style="font-size :100%;">Confirmar Pago𖤓</button>
+        </form>
+    </div>
+
+    <script>
+        let carrito = {}, total = 0;
+        function agregarAlCarrito (nombre, precio) {
+            carrito[nombre] = (carrito[nombre] || 0) + 1;
+            total += precio;
+            document.getElementById("lista-carrito").innerHTML =
+                Object.entries(carrito).map(([n, c]) => `<li>${n} x${c}</li>`).join('');
+            document.getElementById("total").textContent = total;
+        }
+
+        function mostrarFormularioPago() {
+            if (total === 0) {
+                alert("El carrito está vacío  Agrega productos antes de pagar.");
+                return;
+            }
+            document.getElementById("formulario-pago").style.display = "block";
+        }
+
+        function procesarPago(event) {
+            event.preventDefault();
+
+            let nombre = document.getElementById("nombre").value.trim();
+            let tarjeta = document.getElementById("tarjeta").value.trim();
+            let nip = document.getElementById("nip").value.trim();
+
+            if (tarjeta.length !== 16 || isNaN(tarjeta)) {
+                alert("Número de tarjeta inválido. Debe tener 16 dígitos☾𖤓.");
+                return false;
+            }
+
+            if (nip.length !== 4 || isNaN(nip)) {
+                alert("NIP inválido. Debe tener 4 dígitos☾𖤓.");
+                return false;
+            }
+
+            alert(" Pago realizado con éxito.  Muchas Gracias por tu compra☾𖤓.");
+            carrito = {};
+            total = 0;
+            document.getElementById("lista-carrito").innerHTML = "";
+            document.getElementById("total").textContent = "0";
+            document.getElementById("formulario-pago").style.display = "none";
+            return false;
+        }
+    </script>
+
+</body>
+</html>
+
+
+
+
+
+        

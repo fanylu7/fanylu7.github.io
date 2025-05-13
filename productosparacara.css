@@ -1,0 +1,32 @@
+.presentacion {
+    text-align: center;
+    font-family: serif;
+    color: black;
+    text-anchor: 60px;
+}
+.titulo img {
+width: 400px;
+border-radius: 10px;
+margin-bottom: 20px;
+}
+.titulo{
+text-align: center;
+font-family: all;
+text-anchor: 44px;
+
+}
+.cp{
+text-align: center;
+ font-family:serif;
+}
+.cp button {
+background-color: #f06292;
+color: white;
+border: none;
+border-radius: 25px;
+
+}
+
+.cp button:hover {
+background-color: #ec407a;
+}

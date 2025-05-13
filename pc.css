@@ -1,0 +1,24 @@
+body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+        .producto {
+            border: 1px solid #ddd;
+            padding: 10px;
+            margin-bottom: 10px;
+            text-align: center;
+
+        }
+        .carrito {
+            border: 2px solid #000;
+            padding: 10px;
+            margin-top: 20px;
+        }
+      .carrito img {
+width: 10px;
+border-radius: 10px;
+margin-bottom: 20px;
+}
+.formulario-pago{
+    font-size: 100%;
+}

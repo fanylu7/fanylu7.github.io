@@ -1,0 +1,35 @@
+h1 {
+text-align: center;
+color: #333;
+font-size: 24px;
+margin: 20px 0;
+}
+
+
+.me {
+margin: auto;
+padding: 20px;
+background-color: #fff;
+
+}
+
+a {
+color: #7439B7;
+text-decoration: none;
+}
+
+a:hover {
+text-decoration: underline;}
+
+.contacto {
+padding: 10px ;
+}
+.contacto button {
+background-color: #f06292;
+color: white;
+border: none;
+border-radius: 25px;
+text-align: center;
+
+}
+
